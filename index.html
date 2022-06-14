@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="display"></div>
+    <div class="buttons">
+      <div class="btn" onclick="clearxyz()">C</div>
+      <div class="btn" onclick="clickingxyz('/')">/</div>
+      <div class="btn" onclick="clickingxyz('*')">*</div>
+      <div class="btn" onclick="backxyz()">&larr;</div>
+
+      <div class="btn" onclick="clickingxyz('7')">7</div>
+      <div class="btn" onclick="clickingxyz('8')">8</div>
+      <div class="btn" onclick="clickingxyz('9')">9</div>
+      <div class="btn" onclick="clickingxyz('-')">-</div>
+
+      <div class="btn" onclick="clickingxyz('4')">4</div>
+      <div class="btn" onclick="clickingxyz('5')">5</div>
+      <div class="btn" onclick="clickingxyz('6')">6</div>
+      <div class="btn" onclick="clickingxyz('+')">+</div>
+
+      <div class="btn" onclick="clickingxyz('1')">1</div>
+      <div class="btn" onclick="clickingxyz('2')">2</div>
+      <div class="btn" onclick="clickingxyz('3')">3</div>
+      <div class="btn" onclick="clickingxyz('.')">.</div>
+
+      <div class="btn" onclick="clickingxyz('(')">(</div>
+      <div class="btn" onclick="clickingxyz('0')">0</div>
+      <div class="btn" onclick="clickingxyz(')')">)</div>
+      <div class="btn" id="equal" onclick="evalxyz()">=</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
